@@ -8,7 +8,6 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 
 @Configuration
-@ComponentScan("com.hlebon")
 public class ApplicationConfiguration {
 
     private static final int SERVER_PORT = 9876;
